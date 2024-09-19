@@ -4,30 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mastercard</title>
+    <title>Mastercard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <span class="logo">
-          <img src="img/chip.png" alt="" />
-          <h5>Master Card</h5>
-        </span>
-        <img src="img/mastercard.png" alt="" class="chip" />
-      </header>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-front">
+          <header>
+            <span class="logo">
+              <img src="img/chip.png" alt="Card Chip" />
+              <h5>Master Card</h5>
+            </span>
+            <img src="img/mastercard.png" alt="Mastercard Logo" class="chip" />
+          </header>
 
-      <div class="card-details">
-        <div class="name-number">
-          <h6>Card Number</h6>
-          <h5 class="number">0000 0000 0000 0000</h5>
-          <h5 class="name">silver reinart</h5>
+          <div class="card-details">
+            <div class="name-number">
+              <h6>Card Number</h6>
+              <h5 class="number">0000 0000 0000 0000</h5>
+              <h5 class="name">Silver Reinart</h5>
+            </div>
+            <div class="valid-date">
+              <h6>Valid Thru</h6>
+              <h5>05/28</h5>
+            </div>
+          </div>
         </div>
-        <div class="valid-date">
-          <h6>Valid Thru</h6>
-          <h5>05/28</h5>
+
+        <div class="card-back">
+          <div class="black-strip"></div>
+          <div class="cvv-section">
+            <h6>CVV</h6>
+            <div class="cvv-code">123</div>
+          </div>
+          <p class="signature">Authorized Signature</p>
         </div>
       </div>
     </div>
   </body>
 </html>
+x
